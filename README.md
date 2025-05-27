@@ -1,23 +1,58 @@
-# Title of Project: [PROJECT_TITLE_HERE]
+# Title of Project: 
+Progressing Alzheimer’s Diagnosis with Ensemble CNN Model
 
 ## Team Members:
-1. [TEAM_MEMBER_1_NAME]
-2. [TEAM_MEMBER_2_NAME]
-3. [TEAM_MEMBER_3_NAME]
-4. [TEAM_MEMBER_4_NAME]
+1. ROHIT
+2. VIVEK YADAV
+3. VAIBHAV
 
-## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
 
-## Checklist:
-1. Final Project Report
-2. Certificate VII Semester (Dated: December 2024).
-3. Certificate VIII Semester (Dated: May 2025).
-4. Synopsis
-5. Final Presentation
-6. Source Code
-7. Database dump (.sql file)
-8. If a web project, then a Docker file for deployment
-9. README (This file)
+
+## Introduction
+
+Alzheimer's disease (AD) is a progressive neurodegenerative disorder that affects millions of people worldwide. Early detection of AD is crucial for effective treatment and management. This project implements an ensemble approach combining EfficientNet-B2 and VGG16 models for the detection of Alzheimer's disease using MRI images.
+
+Key features of this implementation include:
+- Use of ADASYN (Adaptive Synthetic) technique for addressing class imbalance in the dataset
+- Ensemble approach combining EfficientNet-B2 and VGG16 models
+- Feature concatenation to leverage the strengths of both models
+
+The motivation behind this research is to improve the accuracy and reliability of AD detection using deep learning techniques. By leveraging the strengths of multiple models, addressing class imbalance issues, and combining features through concatenation, we aim to contribute to the development of more effective diagnostic tools for AD.
+
+## Dataset
+
+The project uses the Alzheimer's Dataset (4 class of images) available on Kaggle:
+
+
+This dataset contains MRI images categorized into four classes:
+- Mild Demented
+- Moderate Demented
+- Non Demented
+- Very Mild Demented
+
+
+
+
+## Installation
+
+To run this project, you need to have Python 3.7+ installed. Clone this repository and install the required packages:
+
+```bash
+[git clone https://github.com/cse-kiet/PCSE25-51.git]
+cd PCSE25-51.git
+```
+
+## Usage
+
+1. Download the notebooks 
+
+2. Go to Kaggle > Code > New notebook
+
+3. Import the notebook
+
+4. Add the Alzheimer's Dataset (4 class of Images) dataset as input.
+
+5. Run the cells!
+
+
+
